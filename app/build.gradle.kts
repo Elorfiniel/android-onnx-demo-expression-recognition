@@ -72,6 +72,7 @@ dependencies {
 
     // UI
     implementation(libs.androidx.ui)
+    implementation(libs.androidx.ui.tooling)
     implementation(libs.androidx.foundation)
     implementation(libs.androidx.material3)
     implementation(libs.androidx.animation)
@@ -87,7 +88,18 @@ dependencies {
     implementation(libs.room.ktx)
 
     // Coroutines
+    implementation(libs.kotlinx.coroutines.core)
     implementation(libs.kotlinx.coroutines.android)
+
+    // CameraX
+    implementation(libs.androidx.camera.core)
+    implementation(libs.androidx.camera.camera2)
+    implementation(libs.androidx.camera.lifecycle)
+    implementation(libs.androidx.camera.view)
+    implementation(libs.androidx.camera.extensions)
+
+    // Accompanist
+    implementation(libs.accompanist.permissions)
 
     // Test
     testImplementation(libs.junit)

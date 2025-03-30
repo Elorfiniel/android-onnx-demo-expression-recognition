@@ -1,8 +1,10 @@
 [versions]
+accompanistPermissions = "0.31.3-beta"
 activityCompose = "1.10.1"
 agp = "8.9.1"
 animation = "1.7.8"
 animationAndroid = "1.8.0-rc02"
+cameraxVersion = "1.5.0-alpha06"
 foundation = "1.8.0-rc02"
 foundationLayout = "1.7.8"
 hiltAndroid = "2.55"
@@ -16,6 +18,7 @@ junitVersion = "1.2.1"
 espressoCore = "3.6.1"
 appcompat = "1.7.0"
 kotlinxCoroutinesAndroid = "1.8.1"
+kotlinxCoroutinesCore = "1.8.1"
 lifecycleRuntimeKtx = "2.8.7"
 lifecycleViewmodelCompose = "2.8.7"
 material = "1.12.0"
@@ -28,9 +31,15 @@ uiAndroid = "1.8.0-rc02"
 uiGraphics = "1.7.8"
 
 [libraries]
+accompanist-permissions = { module = "com.google.accompanist:accompanist-permissions", version.ref = "accompanistPermissions" }
 androidx-activity-compose = { module = "androidx.activity:activity-compose", version.ref = "activityCompose" }
 androidx-animation = { module = "androidx.compose.animation:animation", version.ref = "animation" }
 androidx-animation-android = { module = "androidx.compose.animation:animation-android", version.ref = "animationAndroid" }
+androidx-camera-camera2 = { module = "androidx.camera:camera-camera2", version.ref = "cameraxVersion" }
+androidx-camera-core = { module = "androidx.camera:camera-core", version.ref = "cameraxVersion" }
+androidx-camera-extensions = { module = "androidx.camera:camera-extensions", version.ref = "cameraxVersion" }
+androidx-camera-lifecycle = { module = "androidx.camera:camera-lifecycle", version.ref = "cameraxVersion" }
+androidx-camera-view = { module = "androidx.camera:camera-view", version.ref = "cameraxVersion" }
 androidx-compose-ui-ui-tooling = { module = "androidx.compose.ui:ui-tooling" }
 androidx-compose-ui-ui-tooling-preview = { module = "androidx.compose.ui:ui-tooling-preview" }
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -63,6 +72,7 @@ androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "j
 androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
 androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
 kotlinx-coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "kotlinxCoroutinesAndroid" }
+kotlinx-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "kotlinxCoroutinesCore" }
 lifecycle-viewmodel-compose = { module = "androidx.lifecycle:lifecycle-viewmodel-compose", version.ref = "lifecycleViewmodelCompose" }
 material = { group = "com.google.android.material", name = "material", version.ref = "material" }
 material3 = { module = "androidx.compose.material3:material3" }

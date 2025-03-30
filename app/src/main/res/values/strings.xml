@@ -1,3 +1,22 @@
 <resources>
     <string name="app_name">ExpressionRecognition</string>
+    <string name="camera_request_section_dismiss">Exit</string>
+    <string name="camera_request_section_confirm">Grant</string>
+    <string name="camera_request_section_explain">
+        This application needs access to the camera for expression recognition.
+        Please grant the permission to continue.
+    </string>
+    <string name="camera_request_section_title">Camera Permission</string>
+    <string name="camera_rationale_section_title">Why We Need Access to Camera?</string>
+    <string name="camera_rationale_section_explain">
+        This application requires access to your camera to perform expression recognition.
+        This feature allows the app to analyze your facial expressions in real-time,
+        providing personalized feedback and enhancing your overall experience.
+        Your privacy is of utmost importance to us, and we assure you that all data captured
+        by the camera is used securely and solely for the purpose of expression recognition.
+        We do not store, share, or transmit any images or videos to third parties.
+        Please grant the permission to continue using this feature.
+    </string>
+    <string name="camera_rationale_section_dismiss">Maybe next time</string>
+    <string name="camera_rationale_section_confirm">Grant permission now</string>
 </resources>
